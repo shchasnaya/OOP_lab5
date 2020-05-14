@@ -38,7 +38,7 @@ public class MainGui {
         frame = new JFrame();
         frame.setBounds(200, 200, 600, 400);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setTitle("Lab4 OOP");
+        frame.setTitle("Lab5 OOP");
         frame.setContentPane(MainPanel);
         //frame.setLocationRelativeTo(textArea1);
         //frame.setSize(600,300);

@@ -65,7 +65,7 @@ public class DlgCilinder extends JDialog implements IWoodDialog {
         try {
             cilinder = new Cilinder(wood, length, diameter);
         } catch (Exception e) {
-            JOptionPane.showMessageDialog(null, e.getMessage(), "Waste Dialog Error", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(null, e.getMessage(), "Cilinder Dialog Error", JOptionPane.ERROR_MESSAGE);
         }
         DlgCilinder.this.setVisible(false);
         dispose();
