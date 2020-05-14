@@ -5,6 +5,7 @@ import store.ProductStore;
 import store.WoodDirectory;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
@@ -37,6 +38,7 @@ public class MainGui {
 
         frame = new JFrame();
         frame.setBounds(200, 200, 600, 400);
+        frame.setMinimumSize(new Dimension(600,400));
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setTitle("Lab5 OOP");
         frame.setContentPane(MainPanel);
